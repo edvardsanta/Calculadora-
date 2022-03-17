@@ -45,11 +45,11 @@ export class Calculator extends Component
     	<div className="col d-flex justify-content-center">
 	<div id="Calculator">
 
-	/* Result output */
+	
 	<input id="Result" type="text"  className="form-control" placeholder={this.state.data} disabled="disabled" />
 
 
-	/* Buttons */
+
 	<Row>
 
 	 <Button label="C" value="clear" className="clear" onClick={this.handleClick}/>
