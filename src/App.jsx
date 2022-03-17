@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import {Container, Row} from 'react-bootstrap'
-import {Calculator} from "./Calc.jsx"
+import {Calculator} from "./components/Calculator.jsx"
 
-import './App.css'
 function App()
 {
     return(

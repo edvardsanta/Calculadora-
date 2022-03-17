@@ -12,8 +12,18 @@
         border-radius: 10px;
         box-shadow: 1px 1px 5px #000;
 }
-
+#Result
+{
+	text-align: right;
+	font-size: 40px;
+	color: black;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #000;
+	box-shadow: 1px 1px 1px #000;   
+}
 /*Class*/
+
 .btn 
 {
         width: 60px;
@@ -21,13 +31,16 @@
         margin: 5px;
         box-shadow: 1px 1px 1px #000;
 }
-.last_comp
+.lastComp
 {
 	width: 100px;
 }
 .clear 
 {
         width: 130px;
+	height: 50px;
+	box-shadow: 1px 1px 1px #000;
+	margin: 5px;
 }
 .enter 
 {
