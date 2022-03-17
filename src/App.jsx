@@ -1,20 +1,15 @@
 import React, { Component } from 'react'
 import {Container, Row} from 'react-bootstrap'
+import {Calculator} from "./Calc.jsx"
+
 import './App.css'
-class App extends Component
+function App()
 {
-  render()
-  {
     return(
 	<Container>
-	<Row>
- 	<div classname="calculator">
-	
-	</div>
-	</Row>
+        <Calculator />
 	</Container>
     )
-  }
 }
 
 export default App
