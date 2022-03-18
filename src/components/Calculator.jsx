@@ -19,8 +19,7 @@ export class Calculator extends Component
                    break;
 		case 'equal':
                    this.calc();
-                   break;
-	        
+                   break;    
 		default:
                    this.setState({ data: this.state.data + value});
 	}
@@ -53,9 +52,7 @@ export class Calculator extends Component
 	<Row>
 
 	 <Button label="C" value="clear" className="clear" onClick={this.handleClick}/>
-
 	 <Button label="/" value="/" onClick={this.handleClick}/>
-
 	 <Button label="x" value="*" className="lastComp" onClick={this.handleClick}/>
 
 	</Row>
@@ -63,11 +60,8 @@ export class Calculator extends Component
 	<Row>
 
 	 <Button label="7" value="7" onClick={this.handleClick}/>
-	 
 	 <Button label="8" value="8" onClick={this.handleClick}/>
-	 
 	 <Button label="9" value="9" onClick={this.handleClick} />
-	 
 	 <Button label="-" value="-" className="lastComp" onClick={this.handleClick}/>
 
 	</Row>
@@ -75,11 +69,8 @@ export class Calculator extends Component
 	<Row>
 
 	 <Button label="4" value="4" onClick={this.handleClick}/>
-
 	 <Button label="5" value="5" onClick={this.handleClick}/>
-	    
 	 <Button label="6" value="6" onClick={this.handleClick}/>
-
 	 <Button label="+" value="+" className="lastComp" onClick={this.handleClick}/>
 
 	</Row>
@@ -87,11 +78,8 @@ export class Calculator extends Component
 	<Row>
 
 	 <Button label="1" value="1" onClick={this.handleClick}/>
-
 	 <Button label="2" value="2" onClick={this.handleClick}/>
-
 	 <Button label="3" value="3" onClick={this.handleClick}/>
-
          <Button label="=" value="equal" className="enter lastComp" onClick={this.handleClick}/>
 
 	</Row>
@@ -99,7 +87,6 @@ export class Calculator extends Component
 	<Row id="LayoutAdjustment">
 
 	 <Button label="0" value="0" className="zero" onClick={this.handleClick}/>
-
 	 <Button label="." value="." onClick={this.handleClick}/>
 
 	</Row>
