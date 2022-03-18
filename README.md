@@ -15,5 +15,6 @@ You can calculate any elementary math operation
 ## Using Calculator
 - `git clone https://github.com/edvardsanta/Calculator_react`
 - `cd Calculator_react`
+- `yarn or npm install`
 - `yarn dev or npm rum dev`
 - `open <http://localhost:3000>`
