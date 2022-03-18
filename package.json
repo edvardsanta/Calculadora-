@@ -8,6 +8,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edvardsanta"
+  },
   "dependencies": {
     "bootstrap": "^5.1.3",
     "react": "^17.0.2",
@@ -17,5 +21,10 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
     "vite": "^2.8.0"
-  }
+  },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.5.4"
+  },
+  "author": "Eduardo S.M"
 }
