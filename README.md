@@ -18,3 +18,6 @@ You can calculate any elementary math operation
 - `yarn or npm install`
 - `yarn dev or npm rum dev`
 - `open <http://localhost:3000>`
+
+## Instead of cloning and installing
+- open https://calculatorreact8.herokuapp.com/
