@@ -1,12 +1,12 @@
 # Calculator
 
 ## Tools used
-** Vite **
-** yarn **
-** React **
-** Bootstrap **
-** React-Bootstrap **
-** Termux **
+- **Vite**
+- **yarn**
+- **React**
+- **Bootstrap**
+- **React-Bootstrap**
+- **Termux**
 
 ## Getting started
 You can calculate any elementary math operation
